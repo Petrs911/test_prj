@@ -2,7 +2,7 @@ import 'package:flutter/widgets.dart';
 
 import 'package:flutter/material.dart';
 
-import 'providers/horizontal_items.dart';
+import 'lib/providers/horizontal_items.dart';
 
 class Screen1 extends StatelessWidget {
   const Screen1({Key key}) : super(key: key);
