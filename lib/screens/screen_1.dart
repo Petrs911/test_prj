@@ -1,8 +1,16 @@
 import 'package:flutter/widgets.dart';
 
 import 'package:flutter/material.dart';
+import 'base_items_provider.dart';
 
-import 'test_prj/lib/providers/horizontal_items.dart';
+class HorizontalItemsProvider extends BaseItemsProvider {
+  @override
+  String generateItemAt(int index) => 'Horizontal item $index';
+
+  @override
+  Duration get delayBeforeStartUpdate => const Duration(seconds: 5);
+}
+
 
 class Screen1 extends StatelessWidget {
   const Screen1({Key key}) : super(key: key);
