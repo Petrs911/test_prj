@@ -2,7 +2,6 @@ import 'dart:async';
 
 import 'package:flutter/widgets.dart';
 import 'package:provider/provider.dart';
-import 'package:flutter/material.dart';
 
 import 'app.dart';
 import 'providers/horizontal_items.dart';
