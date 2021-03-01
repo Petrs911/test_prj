@@ -17,11 +17,11 @@ class Screen1 extends StatelessWidget {
 
   static const routeName = '/screen_1';
 
-  final func = HorizontalItemsProvider();
-  String _text = func.generateItemAt();
-
   @override
   Widget build(BuildContext context) {
+    var f = HorizontalItemsProvider();
+    String _text = f.generateItemAt(1);
+    
     return Container(
       child: Center(
         child: Text(_text),
