@@ -12,7 +12,7 @@ class Screen1 extends StatelessWidget {
     return Container(
       color: Colors.blueAccent,
       child: Center(
-        child: Text('First Screen', textScaleFactor: 4.0),
+        child: Text('First Screen', textScaleFactor: 4.0, style: TextStyle(color: Colors.black)),
       ),
     );
   }
