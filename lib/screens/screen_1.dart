@@ -17,7 +17,7 @@ class Screen1 extends StatelessWidget {
 
   static const routeName = '/screen_1';
 
-  var func = HorizontalItemsProvider();
+  const func = HorizontalItemsProvider();
   String _text = func.generateItemAt();
 
   @override
