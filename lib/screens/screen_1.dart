@@ -6,5 +6,11 @@ class Screen1 extends StatelessWidget {
   static const routeName = '/screen_1';
 
   @override
-  Widget build(BuildContext context) => Container();
+  Widget build(BuildContext context) {
+    return Container(
+      child: Center(
+        child: Text('First Screen', textScaleFactor: 4.0),
+      ),
+    );
+  }
 }
