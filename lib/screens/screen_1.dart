@@ -2,6 +2,8 @@ import 'package:flutter/widgets.dart';
 
 import 'package:flutter/material.dart';
 
+import 'providers/horizontal_items.dart';
+
 class Screen1 extends StatelessWidget {
   const Screen1({Key key}) : super(key: key);
 
@@ -9,11 +11,12 @@ class Screen1 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      color: Colors.blue[300],
-      child: Center(
-        child: Text('First Screen', textScaleFactor: 4.0, style: TextStyle(color: Colors.pink)),
-      ),
+    return ListView.builder(
+      itemCount: 5,
+      itemBuilder: (context, index) {
+      return HorizontalItemsProvider();
+    } 
+
     );
   }
 }
