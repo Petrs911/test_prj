@@ -10,7 +10,7 @@ class Screen1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.blueIndigo,
+      color: Colors.blue[300],
       child: Center(
         child: Text('First Screen', textScaleFactor: 4.0, style: TextStyle(color: Colors.pink)),
       ),
