@@ -1,7 +1,7 @@
 import 'package:flutter/widgets.dart';
 
 import 'package:flutter/material.dart';
-import 'lib/providers/base_items_provider.dart';
+import 'providers/base_items_provider.dart';
 
 class HorizontalItemsProvider extends BaseItemsProvider {
   @override
@@ -16,8 +16,10 @@ class Screen1 extends StatelessWidget {
   const Screen1({Key key}) : super(key: key);
 
   static const routeName = '/screen_1';
+
   var func = HorizontalItemsProvider();
   String _text = func.generateItemAt();
+
   @override
   Widget build(BuildContext context) {
     return Container(
