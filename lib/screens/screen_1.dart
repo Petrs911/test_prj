@@ -1,7 +1,7 @@
 import 'package:flutter/widgets.dart';
 
 import 'package:flutter/material.dart';
-import 'base_items_provider.dart';
+import '/lib/providers/base_items_provider.dart';
 
 class HorizontalItemsProvider extends BaseItemsProvider {
   @override
@@ -16,15 +16,13 @@ class Screen1 extends StatelessWidget {
   const Screen1({Key key}) : super(key: key);
 
   static const routeName = '/screen_1';
-
+  var func = HorizontalItemsProvider();
+  String _text = func.generateItemAt();
   @override
   Widget build(BuildContext context) {
-    return ListView.builder(
-      itemCount: 5,
-      itemBuilder: (context, index) {
-      return HorizontalItemsProvider();
-    } 
-
+    return Container(
+      child: Center(
+        child: Text(_text),
+      )
     );
-  }
 }
