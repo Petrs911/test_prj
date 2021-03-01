@@ -3,6 +3,8 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:test_prj/providers/horizontal_items.dart';
 
+import 'screen_0';
+
 
 class Screen1 extends StatelessWidget {
   const Screen1({Key key}) : super(key: key);
@@ -11,13 +13,14 @@ class Screen1 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var f = HorizontalItemsProvider();
-    String _text = f.generateItemAt(1);
-    
-    return Container(
-      child: Center(
-        child: Text(_text),
+    return Scaffold(
+      body: Center(
+        child: ElevatedButton(
+          onPressed: () => Navigator.pop(context),
+          child: Text('Go back'),
+        )
       )
     );
   }
 }
+
