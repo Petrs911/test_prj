@@ -12,7 +12,7 @@ class Screen1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: RaisedButton(
+      child: FlatButton(
         onPressed: () => Navigator.pop(context),
         child: Text('Go back'),
       )
