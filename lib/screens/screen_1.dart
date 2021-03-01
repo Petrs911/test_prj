@@ -1,7 +1,7 @@
 import 'package:flutter/widgets.dart';
 
 import 'package:flutter/material.dart';
-import 'providers/base_items_provider.dart';
+import 'package:test_prj/providers/base_items_provider.dart';
 
 class HorizontalItemsProvider extends BaseItemsProvider {
   @override
