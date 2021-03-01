@@ -12,6 +12,7 @@ class Screen1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      color: Colors.black,
       body: Center(
         child: ElevatedButton(
           onPressed: () => Navigator.pop(context),
