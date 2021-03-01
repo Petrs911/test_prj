@@ -25,4 +25,5 @@ class Screen1 extends StatelessWidget {
         child: Text(_text),
       )
     );
+  }
 }
