@@ -14,6 +14,7 @@ class Screen1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: CupertinoButton.filled(
+        disabledColor: Colors.purple,
         child: Text("TEST BUTTON"),
         onPressed: () {},
       )
