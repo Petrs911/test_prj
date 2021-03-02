@@ -22,7 +22,6 @@ class Screen1 extends StatelessWidget {
                 borderRadius: BorderRadius.circular(18.0),
                 //side: BorderSide(color: Colors.red)),
               )),
-            textColor: Colors.white,
             child: Text("TEST BUTTON"),
             onPressed: () {},
           )
