@@ -7,16 +7,13 @@ class ButtonWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Material(
-      child: Padding(
-        padding: EdgeInsets.all(15.0),
-        child: Align(
-          alignment: Alignment.topRight,
-          child: IconButton(
-            iconSize: 30,
-            icon: Icon(CupertinoIcons.clear),
-            color: Colors.black,
-            onPressed: () => Navigator.pop(context),
-          ),
+      child: Align(
+        alignment: Alignment.topRight,
+        child: IconButton(
+          iconSize: 30,
+          icon: Icon(CupertinoIcons.clear),
+          color: Colors.black,
+          onPressed: () => Navigator.pop(context),
         ),
       ),
     );
