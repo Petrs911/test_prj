@@ -14,6 +14,7 @@ class Screen1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
+        color: Colors.red,
         child: Center(
           child: ElevatedButton(
             child: Text("TEST BUTTON"),
