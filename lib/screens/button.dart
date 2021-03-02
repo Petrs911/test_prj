@@ -13,7 +13,7 @@ class ButtonWidget extends StatelessWidget {
           alignment: Alignment.topRight,
           child: IconButton(
             iconSize: 30,
-            icon: Icon(CupertinoIcons.clear, size: 30.0),
+            icon: Icon(CupertinoIcons.clear, size: 50.0),
             color: Colors.black,
             onPressed: () => Navigator.pop(context),
           ),
