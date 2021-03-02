@@ -16,7 +16,7 @@ class Screen1 extends StatelessWidget {
         alignment: Alignment.topRight,
         child: Ink(
             child: IconButton(
-            icon: Icon(Icons.favorite, color: Colors.pink, size: 24.0),
+            icon: Icon(Icons.favorite),
             onPressed: () => Navigator.pop(context),
           ),
         )
