@@ -7,5 +7,5 @@ class Screen2 extends StatelessWidget {
   static const routeName = '/screen_2';
  
   @override
-  Widget build(BuildContext context) => Center(child: ButtonWidget());
+  Widget build(BuildContext context) => Container(child:Center(child:ButtonWidget()));
 }
