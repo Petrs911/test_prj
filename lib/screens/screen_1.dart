@@ -32,7 +32,6 @@ class Screen1 extends StatelessWidget {
      return  Center(
           child: Container(
             child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget> [
                 /*Text('Welcome', style: TextStyle( // your text
                   fontSize: 50.0,
