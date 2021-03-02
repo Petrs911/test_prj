@@ -15,7 +15,7 @@ class Screen1 extends StatelessWidget {
       child: Align(
         alignment: Alignment.topRight,
         child: IconButton(
-          icon: Icon(Icons.clear, size: 64.0),
+          icon: Icon(Icons.clear, size: 30.0),
           onPressed: () => Navigator.pop(context),
         ),
       ) 
