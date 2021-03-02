@@ -19,7 +19,7 @@ class Screen1 extends StatelessWidget {
             child: Text("TEST BUTTON"),
             onPressed: () {},
             style: ElevatedButton.styleFrom(
-              size: Size(20),
+              size: Size(20.0,20.0),
               primary: Colors.purple,
               onPrimary: Colors.white,
               shape: RoundedRectangleBorder(
