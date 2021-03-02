@@ -13,10 +13,7 @@ class Screen1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
-        width: 48.0,
-        height: 48.0,
-        child: Center(
+      body: Center(
           child: ElevatedButton(
             child: Text("TEST BUTTON"),
             onPressed: () {},
@@ -29,7 +26,6 @@ class Screen1 extends StatelessWidget {
             )),
           )
         )
-      )
     );
   }
 }
