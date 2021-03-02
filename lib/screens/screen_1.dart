@@ -14,15 +14,18 @@ class Screen1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        child: RaisedButton(
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(18.0),
-            //side: BorderSide(color: Colors.red)),
-          ),
-          color: Colors.purple,
-          textColor: Colors.white,
-          child: Text("TEST BUTTON"),
-          onPressed: () {},
+        child: Center(
+          child: ElevatedButton(
+            style: ButtonStyle(
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(18.0),
+                //side: BorderSide(color: Colors.red)),
+              )),
+            color: Colors.purple,
+            textColor: Colors.white,
+            child: Text("TEST BUTTON"),
+            onPressed: () {},
+          )
         )
       )
     );
