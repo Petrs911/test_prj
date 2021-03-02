@@ -19,8 +19,8 @@ class Screen1 extends StatelessWidget {
             style: TextStyle(fontSize: 16.5)),
             onPressed: () {},
             style: ElevatedButton.styleFrom(
-              minimumSize: Size(180.0, 60.0),
-              primary: Colors.pink[600],
+              minimumSize: Size(140.0, 44.0),
+              primary: Colors.pink[700],
               onPrimary: Colors.white,
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(30.0),
