@@ -38,7 +38,7 @@ class Screen1 extends StatelessWidget {
                   fontSize: 50.0,
                   fontWeight: FontWeight.bold,
                   color: Colors.white)),
-                ButtonWidget(),
+                //ButtonWidget(),
               ]
             ),
             margin: EdgeInsets.all(16.0),
