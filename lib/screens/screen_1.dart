@@ -33,7 +33,7 @@ class Screen1 extends StatelessWidget {
           child: Container(
             child: Column(
               //crossAxisAlignment: CrossAxisAlignment.start,
-              mainAxisSize: MainAxisSize.min,
+              //mainAxisSize: MainAxisSize.min,
               children: <Widget> [
                 Align(
                   alignment: Alignment.topRight,
