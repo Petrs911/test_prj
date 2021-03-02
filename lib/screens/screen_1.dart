@@ -13,7 +13,7 @@ class Screen1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
+      body: Container(
         child: RaisedButton(
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(18.0),
