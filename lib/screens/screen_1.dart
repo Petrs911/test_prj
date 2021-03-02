@@ -1,4 +1,4 @@
-import 'package:flutter/widgets.dart';
+ import 'package:flutter/widgets.dart';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
@@ -18,7 +18,7 @@ class Screen1 extends StatelessWidget {
         child: Align(
           alignment: Alignment.topRight,
           child: IconButton(
-            icon: Icon(CupertinoIcons.clear),
+            icon: Icon(CupertinoIcons.clear, size: 34.0),
             color: Colors.black,
             onPressed: () => Navigator.pop(context),
           ),
