@@ -38,6 +38,7 @@ class Screen1 extends StatelessWidget {
               border: Border.all(
                 color: Colors.blueAccent,
                 width: 2.0,
+                borderRadius: BorderRadius.circular(16),
               ),
             ),
           )
