@@ -17,7 +17,8 @@ class Screen1 extends StatelessWidget {
         child: Ink(
             child: IconButton(
             icon: Icon(Icons.favorite),
-            onPressed: () => Navigator.pop(context),
+            //onPressed: () => Navigator.pop(context),
+            onPressed: () {},
           ),
         )
       ) 
