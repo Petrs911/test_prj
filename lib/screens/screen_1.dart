@@ -40,7 +40,7 @@ class Screen1 extends StatelessWidget {
                   color: Colors.black)),
                 Align(
                   alignment: Alignment.topRight,
-                  ButtonWidget(),),
+                  child: ButtonWidget(),),
               ]
             ),
             margin: EdgeInsets.all(16.0),
