@@ -12,7 +12,7 @@ class Screen1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Material(
-      child: Align (
+      child: Align(
         alignment: Alignment.topRight,
         child: CloseButton(
           color: Colors.white,
