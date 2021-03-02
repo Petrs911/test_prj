@@ -12,7 +12,7 @@ class Screen1 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    /*return Scaffold(
       body: Center(
           child: ElevatedButton(
             child: Text("TEST BUTTON",
@@ -27,6 +27,21 @@ class Screen1 extends StatelessWidget {
             )),
           )
         )
+    );*/
+
+     return  Center(
+          child: ElevatedButton(
+            child: Text("TEST BUTTON",
+            style: TextStyle(fontSize: 16.5)),
+            onPressed: () {},
+            style: ElevatedButton.styleFrom(
+              minimumSize: Size(140.0, 50.0),
+              primary: Color(0xFFDB00FF),
+              onPrimary: Colors.white,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(30.0),
+            )),
+          )
     );
   }
 }
