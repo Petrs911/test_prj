@@ -40,6 +40,8 @@ class Screen1 extends StatelessWidget {
                   fontSize: 40.0,
                   fontWeight: FontWeight.bold,
                   color: Colors.black)),
+                Text("This widget will be as big as possible if its dimensions are constrained and widthFactor and heightFactor are null. If a dimension is unconstrained and the corresponding size factor is null then the widget will match its child's size in that dimension."
+                  ),
               ]
             ),
             margin: EdgeInsets.all(16.0),
