@@ -11,10 +11,11 @@ class Screen1 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(
+    return Align(
+      alignment: Alignment.topRight;
       child: FlatButton(
         onPressed: () => Navigator.pop(context),
-        child: Text('Go back', style: TextStyle(color: Colors.white)),
+        child: Icon(Icons.close, size: 24.0),
       )
     );
   }
