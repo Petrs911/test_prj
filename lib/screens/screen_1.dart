@@ -17,11 +17,11 @@ class Screen1 extends StatelessWidget {
         child: Center(
           child: ElevatedButton(
             style: ButtonStyle(
+              backgroundColor: MaterialStateProperty.all<Color>(Colors.purple),
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(18.0),
                 //side: BorderSide(color: Colors.red)),
               )),
-            color: Colors.purple,
             textColor: Colors.white,
             child: Text("TEST BUTTON"),
             onPressed: () {},
