@@ -11,12 +11,13 @@ class Screen1 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Align(
+    return Material(
+      child: Align(
         alignment: Alignment.topRight,
         child: Padding(
           padding: EdgeInsets.all(20.0),
           child: IconButton(
-            icon: Icon(Icons.clear, size: 40.0, color: Colors.pink),
+            icon: Icon(Icons.clear, size: 40.0),
             onPressed: () => Navigator.pop(context),
           ),
         ), 
