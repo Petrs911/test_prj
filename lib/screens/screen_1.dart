@@ -13,13 +13,11 @@ class Screen1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
-        child: Center(
-            child: CupertinoButton(
-              color: Colors.purple,
-              child: Text("TEST BUTTON", style: TextStyle(color: Colors.white)),
-              onPressed: () {},
-          )
+      body: Center(
+        child: CupertinoButton(
+          color: Colors.purple,
+          child: Text("TEST BUTTON", style: TextStyle(color: Colors.white)),
+          onPressed: () {},
         )
       )
     );
