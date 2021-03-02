@@ -30,17 +30,16 @@ class Screen1 extends StatelessWidget {
     );*/
 
      return  Center(
-          child: ElevatedButton(
-            child: Text("TEST BUTTON",
-            style: TextStyle(fontSize: 16.5)),
-            onPressed: () {},
-            style: ElevatedButton.styleFrom(
-              minimumSize: Size(140.0, 50.0),
-              primary: Color(0xFFDB00FF),
-              onPrimary: Colors.white,
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(30.0),
-            )),
+          child: Container(
+            margin: EdgeInsets.all(15.0),
+            padding: EdgeInsets.all(3.0),
+            height: 80.0,
+            decoration: BoxDecoration(
+              border: Border.all(
+                color: Colors.blueAccent,
+                width: 5.0,
+              ),
+            ),
           )
     );
   }
