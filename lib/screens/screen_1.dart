@@ -33,7 +33,7 @@ class Screen1 extends StatelessWidget {
           child: Container(
             child: ButtonWidget(),
             margin: EdgeInsets.all(16.0),
-            padding: EdgeInsets.all(0.0),
+            padding: EdgeInsets.all(3.0),
             height: 581.0,
             width: double.infinity,
             decoration: BoxDecoration(
