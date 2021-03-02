@@ -2,7 +2,7 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 
-import 'package:test_prj/providers/horizontal_items.dart';
+import 'button.dart';
 
 
 class Screen1 extends StatelessWidget {
@@ -31,6 +31,7 @@ class Screen1 extends StatelessWidget {
 
      return  Center(
           child: Container(
+            ButtonWidget(),
             margin: EdgeInsets.all(16.0),
             padding: EdgeInsets.all(3.0),
             height: 581.0,
