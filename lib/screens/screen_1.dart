@@ -32,7 +32,7 @@ class Screen1 extends StatelessWidget {
      return  Center(
           child: Container(
             //margin: EdgeInsets.all(15.0),
-            //padding: EdgeInsets.all(3.0),
+            padding: EdgeInsets.all(3.0),
             //height: 80.0,
             decoration: BoxDecoration(
               border: Border.all(
