@@ -16,7 +16,6 @@ class Screen1 extends StatelessWidget {
       body: Container(
         child: Center(
             child: CupertinoButton(
-              borderRadius: BorderRadius.all(Radius.circular(8.0)),
               color: Colors.purple,
               child: Text("TEST BUTTON", style: TextStyle(color: Colors.white)),
               onPressed: () {},
