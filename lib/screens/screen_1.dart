@@ -36,7 +36,7 @@ class Screen1 extends StatelessWidget {
                 Align(
                   alignment: Alignment.topRight,
                   child: ButtonWidget(),),
-                Text('Welcome', style: TextStyle( // your text
+                Text('Title', style: TextStyle( // your text
                   fontSize: 40.0,
                   fontWeight: FontWeight.bold,
                   color: Colors.black)),
