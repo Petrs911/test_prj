@@ -37,7 +37,7 @@ class Screen1 extends StatelessWidget {
                 Text('Welcome', style: TextStyle( // your text
                   fontSize: 50.0,
                   fontWeight: FontWeight.bold,
-                  color: Colors.white)),
+                  color: Colors.black)),
                 //ButtonWidget(),
               ]
             ),
