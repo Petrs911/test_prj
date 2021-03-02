@@ -15,7 +15,7 @@ class Screen1 extends StatelessWidget {
       alignment: Alignment.topRight,
       child: FlatButton(
         onPressed: () => Navigator.pop(context),
-        child: Icon(Icons.close, size: 64.0, color: Colors.white),
+        child: Icon(Icons.clear, size: 64.0, color: Colors.white),
       )
     );
   }
