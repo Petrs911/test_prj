@@ -31,7 +31,7 @@ class Screen1 extends StatelessWidget {
 
      return  Center(
           child: Container(
-            ButtonWidget(),
+            child: ButtonWidget(),
             margin: EdgeInsets.all(16.0),
             padding: EdgeInsets.all(3.0),
             height: 581.0,
