@@ -8,7 +8,7 @@ class ButtonWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Material(
       child: IconButton(
-        //alignment: Alignment.topRight,
+        alignment: Alignment.topRight,
         iconSize: 50,
         icon: Icon(CupertinoIcons.clear),
         color: Colors.black,
