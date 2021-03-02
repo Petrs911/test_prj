@@ -18,7 +18,7 @@ class Screen1 extends StatelessWidget {
         child: Align(
           alignment: Alignment.topRight,
           child: IconButton(
-            icon: Icon(CupertinoIcons.clear, size: 34.0),
+            icon: Icon(CupertinoIcons.clear, size: 50.0),
             color: Colors.black,
             onPressed: () => Navigator.pop(context),
           ),
