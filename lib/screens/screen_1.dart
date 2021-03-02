@@ -13,9 +13,9 @@ class Screen1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Align(
       alignment: Alignment.topRight,
-      child: FlatButton(
+      child: IconButton(
+        icon: Icon(Icons.favorite, color: Colors.pink, size: 24.0),
         onPressed: () => Navigator.pop(context),
-        child: Icon(Icons.favorite, color: Colors.pink, size: 24.0),
       )
     );
   }
