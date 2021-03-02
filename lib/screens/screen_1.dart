@@ -14,10 +14,13 @@ class Screen1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: CupertinoButton(
-          borderRadius:BorderRadius.all(Radius.circular(8.0)),
+        child: RaisedButton(
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(18.0),
+            side: BorderSide(color: Colors.red)),
           color: Colors.purple,
-          child: Text("TEST BUTTON", style: TextStyle(color: Colors.white)),
+          textColor: Colors.white,
+          child: Text("TEST BUTTON"),
           onPressed: () {},
         )
       )
