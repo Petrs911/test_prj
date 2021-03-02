@@ -13,12 +13,14 @@ class Screen1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Material(
       child: Align(
-          alignment: Alignment.topRight,
-          child: IconButton(
+        alignment: Alignment.topRight,
+        child: Ink(
+            child: IconButton(
             icon: Icon(Icons.favorite, color: Colors.pink, size: 24.0),
             onPressed: () => Navigator.pop(context),
-          )
-        ) 
+          ),
+        )
+      ) 
     );
   }
 }
