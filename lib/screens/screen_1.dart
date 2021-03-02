@@ -16,14 +16,14 @@ class Screen1 extends StatelessWidget {
       body: Container(
         child: Center(
           child: ElevatedButton(
-            style: ButtonStyle(
-              backgroundColor: MaterialStateProperty.all<Color>(Colors.purple),
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(18.0),
-                //side: BorderSide(color: Colors.red)),
-              )),
             child: Text("TEST BUTTON"),
             onPressed: () {},
+            style: ElevatedButton.stryleFrom(
+              primary: Colors.purple,
+              onPrimary: Colors.white,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(18.0),
+            )),
           )
         )
       )
