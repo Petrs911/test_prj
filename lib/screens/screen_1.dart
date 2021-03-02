@@ -14,7 +14,8 @@ class Screen1 extends StatelessWidget {
     return Material(
       child: Align(
         alignment: Alignment.topRight,
-        child: CloseButton(
+        child: IconButton(
+          icon: Icon(Icons.clear),
           color: Colors.white,
           onPressed: () => Navigator.pop(context),
         ),
