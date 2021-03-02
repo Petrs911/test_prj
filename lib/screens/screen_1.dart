@@ -14,7 +14,7 @@ class Screen1 extends StatelessWidget {
     return Center(
       child: FlatButton(
         onPressed: () => Navigator.pop(context),
-        child: Text('Go back'),
+        child: Text('Go back', style: TextStyle(color: Colors.white)),
       )
     );
   }
