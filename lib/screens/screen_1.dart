@@ -16,7 +16,7 @@ class Screen1 extends StatelessWidget {
       body: Center(
           child: ElevatedButton(
             child: Text("TEST BUTTON",
-            style: TextStyle(fontSize: 16.5)),
+              style: TextStyle(fontSize: 16.5)),
             onPressed: () {},
             style: ElevatedButton.styleFrom(
               minimumSize: Size(140.0, 50.0),
@@ -37,7 +37,7 @@ class Screen1 extends StatelessWidget {
                   alignment: Alignment.topRight,
                   child: ButtonWidget(),),
                 Text('Welcome', style: TextStyle( // your text
-                  fontSize: 50.0,
+                  fontSize: 40.0,
                   fontWeight: FontWeight.bold,
                   color: Colors.black)),
               ]
