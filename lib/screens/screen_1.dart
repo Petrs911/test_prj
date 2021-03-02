@@ -10,6 +10,13 @@ class Screen1 extends StatelessWidget {
   static const routeName = '/screen_1';
 
   @override
-  Widget build(BuildContext context) => Container();
+  Widget build(BuildContext context) {
+    return Center(
+      child: CupertinoButton.filled(
+        child: Text("TEST BUTTON"),
+        onPressed: () {},
+      )
+    );
+  }
 }
 
