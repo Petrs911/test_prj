@@ -31,7 +31,16 @@ class Screen1 extends StatelessWidget {
 
      return  Center(
           child: Container(
-            child: ButtonWidget(),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget> [
+                Text('Welcome', style: TextStyle( // your text
+                  fontSize: 50.0,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.white)),
+                ButtonWidget(),
+              ]
+            ),
             margin: EdgeInsets.all(16.0),
             padding: EdgeInsets.all(3.0),
             height: 581.0,
