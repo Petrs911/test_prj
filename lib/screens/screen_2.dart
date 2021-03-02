@@ -8,4 +8,7 @@ class Screen2 extends StatelessWidget {
  
   @override
   Widget build(BuildContext context) => ButtonWidget();
+
+  @override
+  Widget build(BuildContext context) => Text('Hi there');
 }
