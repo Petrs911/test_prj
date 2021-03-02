@@ -34,7 +34,7 @@ class Screen1 extends StatelessWidget {
             //margin: EdgeInsets.all(15.0),
             padding: EdgeInsets.all(3.0),
             height: 581.0,
-            weight: 381.0
+            width: 381.0
             decoration: BoxDecoration(
               border: Border.all(
                 color: Colors.blueAccent,
