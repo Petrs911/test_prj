@@ -12,7 +12,6 @@ class ButtonWidget extends StatelessWidget {
         children: <Widget>[
         Icon(CupertinoIcons.clear),
       ],),
-      ),
     );
   }
 }
