@@ -18,7 +18,6 @@ class Screen1 extends StatelessWidget {
           padding: EdgeInsets.all(20.0),
           child: IconButton(
             icon: Icon(Icons.clear),
-            size: 35.0,
             onPressed: () => Navigator.pop(context),
           ),
         ), 
