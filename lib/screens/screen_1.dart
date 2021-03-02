@@ -12,7 +12,7 @@ class Screen1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Align(
-      alignment: Alignment.topRight;
+      alignment: Alignment.topRight,
       child: FlatButton(
         onPressed: () => Navigator.pop(context),
         child: Icon(Icons.close, size: 24.0),
