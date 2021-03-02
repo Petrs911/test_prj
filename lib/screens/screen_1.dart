@@ -14,10 +14,13 @@ class Screen1 extends StatelessWidget {
     return Material(
       child: Align(
         alignment: Alignment.topRight,
-        child: IconButton(
-          icon: Icon(Icons.clear, size: 30.0),
-          onPressed: () => Navigator.pop(context),
-        ),
+        child: Padding(
+          padding: EdgeInsets.all(20.0),
+          IconButton(
+            icon: Icon(Icons.clear, size: 30.0),
+            onPressed: () => Navigator.pop(context),
+          ),
+        ), 
       ) 
     );
   }
