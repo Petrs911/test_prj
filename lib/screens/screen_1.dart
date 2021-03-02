@@ -33,10 +33,10 @@ class Screen1 extends StatelessWidget {
           child: Container(
             child: Column(
               children: <Widget> [
-                /*Text('Welcome', style: TextStyle( // your text
+                Text('Welcome', style: TextStyle( // your text
                   fontSize: 50.0,
                   fontWeight: FontWeight.bold,
-                  color: Colors.black)),*/
+                  color: Colors.black)),
                 Align(
                   alignment: Alignment.topRight,
                   child: ButtonWidget(),),
