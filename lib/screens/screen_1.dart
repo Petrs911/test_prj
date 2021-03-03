@@ -44,7 +44,7 @@ class Screen1 extends StatelessWidget {
                   color: Colors.black)),
                 Container(
                   margin: EdgeInsets.all(16.0),
-                  child: Text("This widget sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssswill be as big as possible if its dimensions are constrained and widthFactor and heightFactor are null. If a dimension is unconstrained and the corresponding size",
+                  child: Text("This widget will be as big as possible if its dimensions are constrained and widthFactor and heightFactor are null. If a dimension is unconstrained and the corresponding size",
                     style: TextStyle(fontSize: 14.0, color: Colors.black))),
                 Container(
                   padding: EdgeInsets.only(left:16.0, right: 16.0, top: 16.0),
@@ -57,7 +57,7 @@ class Screen1 extends StatelessWidget {
                     child: SingleChildScrollView(
                     scrollDirection: Axis.vertical,
                     child: Text("A box in which a single widget can be scrolled. This widget is useful when you have a single box that will normally be entirely visible, for example a clock face in a time picker, but you need to make sure it can be scrolled if the container gets too small in one axis (the scroll direction). It is also useful if you need to shrink-wrap in both axes (the main scrolling direction as well as the cross axis), as one might see in a dialog or pop-up menu. In that case, you might pair the [SingleChildScrollView] with a [ListBody] child. When you have a list of children and do not require cross-axis shrink-wrapping",
-                      style: TextStyle(fontSize: 14, color: Colors.black),
+                      style: TextStyle(fontSize: 30, color: Colors.black),
                     ),
                   ),
                 ),
