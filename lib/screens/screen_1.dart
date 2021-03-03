@@ -17,14 +17,14 @@ class Screen1 extends StatelessWidget {
             child: Column(
               children: <Widget> [
                 Row(
+                  Container(),
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: <Widget> [
-                     Text('Title', style: TextStyle(
+                    Text('Title', style: TextStyle(
                       fontSize: 24.0,
                       fontWeight: FontWeight.bold,
                       color: Colors.black)),
-                    Center(
-                      child: ButtonWidget(),),
+                    ButtonWidget(),
                   ],
                 ),
                 Container(
