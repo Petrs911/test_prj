@@ -17,7 +17,7 @@ class Screen1 extends StatelessWidget {
             child: Column(
               children: <Widget> [
                 Row(
-                  mainAxisAligment: MainAxisAlignment.end,
+                  mainAxisAlignment: MainAxisAlignment.end,
                   children: <Widget> [
                      Text('Title', style: TextStyle(
                       fontSize: 24.0,
