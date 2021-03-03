@@ -39,7 +39,7 @@ class Screen1 extends StatelessWidget {
                   alignment: Alignment.topRight,
                   child: ButtonWidget(),),
                 Text('Title', style: TextStyle(
-                  fontSize: 32.0,
+                  fontSize: 24.0,
                   fontWeight: FontWeight.bold,
                   color: Colors.black)),
                 Container(
