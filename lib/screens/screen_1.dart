@@ -44,7 +44,7 @@ class Screen1 extends StatelessWidget {
                   color: Colors.black)),
                 Container(
                   margin: EdgeInsets.all(16.0),
-                  child: Text("This widget will be as big as possible if its dimensions are constrained and widthFactor and heightFactor are null. If a dimension is unconstrained and the corresponding size",
+                  child: Text("This widget sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssswill be as big as possible if its dimensions are constrained and widthFactor and heightFactor are null. If a dimension is unconstrained and the corresponding size",
                     style: TextStyle(fontSize: 14.0, color: Colors.black))),
                 Container(
                   padding: EdgeInsets.only(left:16.0, right: 16.0, top: 16.0),
