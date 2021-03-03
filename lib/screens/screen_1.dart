@@ -53,7 +53,7 @@ class Screen1 extends StatelessWidget {
                 Center(
                   child: ElevatedButton(
                     child: Text("TEST BUTTON",
-                      style: TextStyle(fontSize: 16.5)),
+                      style: TextStyle(fontSize: 15.0)),
                     onPressed: () {},
                     style: ElevatedButton.styleFrom(
                       minimumSize: Size(140.0, 50.0),
@@ -67,7 +67,6 @@ class Screen1 extends StatelessWidget {
               ]
             ),
             margin: EdgeInsets.all(16.0),
-            //padding: EdgeInsets.all(3.0),
             height: 581.0,
             width: double.infinity,
             decoration: BoxDecoration(
