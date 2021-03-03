@@ -23,7 +23,7 @@ class Screen1 extends StatelessWidget {
                       fontSize: 24.0,
                       fontWeight: FontWeight.bold,
                       color: Colors.black)),
-                   
+                    ButtonWidget(),
                     /*Align(
                       alignment: Alignment.topRight,
                       child: ButtonWidget(),),*/
