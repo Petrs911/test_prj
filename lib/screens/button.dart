@@ -9,9 +9,7 @@ class ButtonWidget extends StatelessWidget {
     return TextButton(
       onPressed: () => Navigator.pop(context),
       child: Column(
-        children: <Widget>[
-        Icon(CupertinoIcons.clear, color: Colors.green, size: 50.0),
-      ],),
+        child: Icon(CupertinoIcons.clear, color: Colors.green, size: 50.0),),
     );
   }
 }
