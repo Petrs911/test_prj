@@ -16,13 +16,17 @@ class Screen1 extends StatelessWidget {
           child: Container(
             child: Column(
               children: <Widget> [
-                Align(
-                  alignment: Alignment.topRight,
-                  child: ButtonWidget(),),
-                Text('Title', style: TextStyle(
-                  fontSize: 24.0,
-                  fontWeight: FontWeight.bold,
-                  color: Colors.black)),
+                Row(
+                  children: <Widget> [
+                    Align(
+                      alignment: Alignment.topRight,
+                      child: ButtonWidget(),),
+                    Text('Title', style: TextStyle(
+                      fontSize: 24.0,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.black)),
+                  ],
+                ),
                 Container(
                   margin: EdgeInsets.all(16.0),
                   child: Text("This widget will be as big as possible if its dimensions are constrained and widthFactor and heightFactor are null. If a dimension is unconstrained and the corresponding size",
