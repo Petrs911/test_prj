@@ -19,7 +19,7 @@ class Screen1 extends StatelessWidget {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: <Widget> [
-                    Container(width:20.0),
+                    Container(width: 30.0),
                     Text('Title', style: TextStyle(
                       fontSize: 24.0,
                       fontWeight: FontWeight.bold,
