@@ -47,10 +47,10 @@ class Screen1 extends StatelessWidget {
                   child: Text("This widget will be as big as possible if its dimensions are constrained and widthFactor and heightFactor are null. If a dimension is unconstrained and the corresponding size",
                     style: TextStyle(fontSize: 14.0, color: Colors.black))),
                 Container(
-                  /*padding: EdgeInsets.only(left:16.0, right: 16.0, top: 16.0),
-                  margin: EdgeInsets.only(bottom: 15.0),
+                  //padding: EdgeInsets.only(left:16.0, right: 16.0, top: 16.0),
+                  //margin: EdgeInsets.only(bottom: 15.0),
                   height: 330.0,
-                  decoration: BoxDecoration(
+                  /*decoration: BoxDecoration(
                     color: Color(0xFFE5E5E5),
                   ),*/
                   child: CupertinoScrollbar(
