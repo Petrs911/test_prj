@@ -32,7 +32,7 @@ class Screen1 extends StatelessWidget {
      return  Center(
           child: Container(
             child: Column(
-              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              //mainAxisAlignment: MainAxisAlignment.spaceAround,
               //mainAxisSize: MainAxisSize.min,
               children: <Widget> [
                 Align(
