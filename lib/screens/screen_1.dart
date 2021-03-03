@@ -16,7 +16,7 @@ class Screen1 extends StatelessWidget {
           child: Container(
             child: Column(
               children: <Widget> [
-                ListTile(
+                Row(
                   //mainAxisAlignment: MainAxisAlignment.end,
                   children: <Widget> [
                      Text('Title', style: TextStyle(
