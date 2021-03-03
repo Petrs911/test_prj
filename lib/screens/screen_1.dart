@@ -24,9 +24,9 @@ class Screen1 extends StatelessWidget {
                       fontWeight: FontWeight.bold,
                       color: Colors.black)),
                    
-                    Align(
+                    /*Align(
                       alignment: Alignment.topRight,
-                      child: ButtonWidget(),),
+                      child: ButtonWidget(),),*/
                   ],
                 ),
                 Container(
