@@ -48,7 +48,7 @@ class Screen1 extends StatelessWidget {
                     style: TextStyle(fontSize: 14.0, color: Colors.black))),
                 Container(
                   padding: EdgeInsets.all(16.0),
-                  margin: EdgeInsets.only(botto: 10.0),
+                  margin: EdgeInsets.only(bottom: 10.0),
                   height: 200.0,
                   decoration: BoxDecoration(
                     color: Colors.grey,
