@@ -51,7 +51,7 @@ class Screen1 extends StatelessWidget {
                   margin: EdgeInsets.only(bottom: 15.0),
                   height: 330.0,
                   decoration: BoxDecoration(
-                    color: Colors.grey,
+                    color: Color(0xFFE5E5E5),
                   ),
                   child: Expanded(
                     child: SingleChildScrollView(
