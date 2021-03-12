@@ -22,13 +22,13 @@ class Screen1 extends StatelessWidget {
           borderRadius: BorderRadius.circular(12),
         ),
         child: Column(
-          children: <Widget> [
+          children: <Widget>[
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: <Widget> [
+              children: <Widget>[
                 SizedBox(width: 50.0),
                 Text(
-                  "Title", 
+                  "Title",
                   style: TextStyle(
                     fontSize: 24.0,
                     fontWeight: FontWeight.bold,
@@ -37,11 +37,10 @@ class Screen1 extends StatelessWidget {
                 ),
                 ButtonWidget(),
               ],
-              Container(
-                margin: EdgeInsets.all(16.0),
-                child: Text('Lol'/*text: shortText*/,
-                  textStyle: TextStyle(fontSize: 14.0, color: Colors.black)),
-              ),
+            ),
+            Container(
+              margin: EdgeInsets.all(16.0),
+              child: Text('Lol' /*text: shortText*/, textStyle: TextStyle(fontSize: 14.0, color: Colors.black)),
             ),
           ],
         ),
