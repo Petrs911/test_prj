@@ -19,6 +19,22 @@ class Screen1 extends StatelessWidget {
         decoration: BoxDecoration(
           color: Colors.green,
           borderRadius: BorderRadius.circular(12),
+        child: Column(
+          children: <Widget> [
+            Row(
+              children: <Widget> [
+                SizedBox(width: 20.0),
+                Text(
+                  "Title", 
+                  style: TextStyle(
+                    fontSize: 24.0,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+              ],
+            ),
+          ],
+        ),
         ),
       ),
     );
