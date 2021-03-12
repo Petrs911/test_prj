@@ -13,6 +13,7 @@ class Screen1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       height: 400.0,
+      decoration: BoxDecoration(color: Colors.black),
       child: Container(
         margin: EdgeInsets.all(16.0),
         height: 200.0,
