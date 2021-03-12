@@ -19,6 +19,7 @@ class Screen1 extends StatelessWidget {
         decoration: BoxDecoration(
           color: Colors.green,
           borderRadius: BorderRadius.circular(12),
+        )
         child: Column(
           children: <Widget> [
             Row(
@@ -34,7 +35,6 @@ class Screen1 extends StatelessWidget {
               ],
             ),
           ],
-        ),
         ),
       ),
     );
