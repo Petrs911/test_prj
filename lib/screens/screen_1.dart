@@ -47,11 +47,10 @@ class Screen1 extends StatelessWidget {
               height: 360.0,
               padding: EdgeInsets.only(left:16.0, right: 16.0, top: 16.0),
               decoration: BoxDecoration(
-                color: Color(0xFFE5E5E5),
                 boxShadow: [
+                  color: Color(0xFFE5E5E5),
                   BoxShadow(
                     blurRadius: 2.0,
-                    spreadRadius: 2.0,
                     color: Colors.grey.withOpacity(0.5),
                     offset: Offset(0.0, 7.0),
                   ),
