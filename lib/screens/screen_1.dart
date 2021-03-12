@@ -13,9 +13,9 @@ class Screen1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: Container(
+        margin: EdgeInsets.all(16.0),
         width: double.infinity,
         height: 581.0,
-        margin: EdgeInsets.all(16.0),
         decoration: BoxDecoration(
           color: Colors.green,
           borderRadius: BorderRadius.circular(12),
@@ -24,12 +24,13 @@ class Screen1 extends StatelessWidget {
           children: <Widget> [
             Row(
               children: <Widget> [
-                SizedBox(width: 20.0),
+                SizedBox(width: 50.0),
                 Text(
                   "Title", 
                   style: TextStyle(
                     fontSize: 24.0,
                     fontWeight: FontWeight.bold,
+                    color: colors.Black
                   ),
                 ),
               ],
