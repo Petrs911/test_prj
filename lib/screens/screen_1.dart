@@ -12,6 +12,7 @@ class Screen1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      height: 400.0
       child: Container(
         margin: EdgeInsets.all(16.0),
         height: 200.0,
