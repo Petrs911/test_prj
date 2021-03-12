@@ -48,13 +48,6 @@ class Screen1 extends StatelessWidget {
               padding: EdgeInsets.only(left:16.0, right: 16.0, top: 16.0),
               decoration: BoxDecoration(
                 color: Color(0xFFE5E5E5),
-                boxShadow: [
-                  BoxShadow(
-                    blurRadius: 2.0,
-                    color: Colors.grey,
-                    offset: Offset(0.0, 4.0),
-                  ),
-                ],
               ),
               child: CupertinoScrollbar(
                 isAlwaysShown: true,
