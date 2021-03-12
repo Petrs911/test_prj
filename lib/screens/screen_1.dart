@@ -14,13 +14,13 @@ class Screen1 extends StatelessWidget {
     return Container(
       height: 400.0,
       decoration: BoxDecoration(color: Colors.black),
-      child: Container(
-        //margin: EdgeInsets.all(16.0),
-        height: 200.0,
-        //width: double.infinity,
-        decoration: BoxDecoration(
-          color: Colors.green,
-          borderRadius: BorderRadius.circular(12),
+      child: Center(
+        child: Container(
+          //margin: EdgeInsets.all(16.0),
+          decoration: BoxDecoration(
+            color: Colors.green,
+            borderRadius: BorderRadius.circular(12),
+          ),
         ),
       ),
     );
