@@ -37,6 +37,7 @@ class Screen1 extends StatelessWidget {
                 ButtonWidget(),
               ],
             ),
+            Center(child: Text('Gigi gaga')),
           ],
         ),
       ),
