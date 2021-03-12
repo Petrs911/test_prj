@@ -23,7 +23,7 @@ class Screen1 extends StatelessWidget {
         child: Column(
           children: <Widget> [
             Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget> [
                 SizedBox(width: 50.0),
                 Text(
