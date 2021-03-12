@@ -25,7 +25,7 @@ class Screen1 extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget> [
-                SizedBox(width: 50.0),
+                SizedBox(),
                 Text(
                   "Title", 
                   style: TextStyle(
