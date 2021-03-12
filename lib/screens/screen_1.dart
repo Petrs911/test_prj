@@ -33,6 +33,7 @@ class Screen1 extends StatelessWidget {
                     color: Colors.black,
                   ),
                 ),
+                ButtonWidget(),
               ],
             ),
           ],
