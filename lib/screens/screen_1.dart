@@ -45,7 +45,15 @@ class Screen1 extends StatelessWidget {
             ),
             Container(
               height: 360.0,
-              decoration: BoxDecoration(color: Color(0xFFE5E5E5)),
+              decoration: BoxDecoration(
+                color: Color(0xFFE5E5E5),
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.grey.withOpacity(0.5),
+                    offset: Offset(0.0, 3.0),
+                  ),
+                ],
+              ),
             ),
           ],
         ),
