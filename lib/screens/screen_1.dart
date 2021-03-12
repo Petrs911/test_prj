@@ -39,7 +39,7 @@ class Screen1 extends StatelessWidget {
               ],
             ),
             Container(
-              margin: EdgeInsets.only(left: 16.0, right: 16.0),
+              margin: EdgeInsets.all(16.0),
               child: Text(shortText, 
                 style: TextStyle(fontSize: 14.0, color: Colors.black)),
             ),
