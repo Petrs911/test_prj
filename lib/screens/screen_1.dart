@@ -13,9 +13,9 @@ class Screen1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: Container(
-        width: 100.0,
+        width: double.infinity,
         height: 100.0,
-        //margin: EdgeInsets.all(16.0),
+        margin: EdgeInsets.all(16.0),
         decoration: BoxDecoration(
           color: Colors.green,
           borderRadius: BorderRadius.circular(12),
