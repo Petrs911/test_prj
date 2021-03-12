@@ -14,7 +14,7 @@ class Screen1 extends StatelessWidget {
     return Center(
       child: Container(
         margin: EdgeInsets.all(16.0),
-        width: double.infinity,
+        //width: double.infinity,
         height: 581.0,
         decoration: BoxDecoration(
           color: Colors.white,
@@ -37,7 +37,6 @@ class Screen1 extends StatelessWidget {
                 ButtonWidget(),
               ],
             ),
-            Center(child: Text('Gigi gaga')),
           ],
         ),
       ),
