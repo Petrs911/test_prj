@@ -56,7 +56,7 @@ class Screen1 extends StatelessWidget {
                 ],
               ),
               child: CupertinoScrollbar(
-                isAlways: true,
+                isAlwaysShown: true,
                 controller: ScrollController(),
                 child: SingleCgildScrollView(
                   child: Text(longText,
