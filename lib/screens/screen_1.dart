@@ -50,7 +50,7 @@ class Screen1 extends StatelessWidget {
                 color: Color(0xFFE5E5E5),
                 boxShadow: [
                   BoxShadow(
-                    blurRadius: 25.0,
+                    blurRadius: 2.0,
                     color: Colors.grey.withOpacity(0.5),
                     offset: Offset(0.0, 5.0),
                   ),
