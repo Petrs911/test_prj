@@ -40,24 +40,37 @@ class Screen1 extends StatelessWidget {
             ),
             Container(
               margin: EdgeInsets.all(16.0),
-              child: Text(shortText, 
-                style: TextStyle(fontSize: 14.0, color: Colors.black)),
+              child: Text(shortText, style: TextStyle(fontSize: 14.0, color: Colors.black)),
             ),
             Container(
-              height: 360.0,
-              padding: EdgeInsets.only(left:16.0, right: 16.0, top: 16.0),
-              decoration: BoxDecoration(
-                color: Color(0xFFE5E5E5),
-              ),
-              child: CupertinoScrollbar(
-                isAlwaysShown: true,
-                controller: ScrollController(),
-                child: SingleChildScrollView(
-                  child: Text(longText,
-                    style: TextStyle(fontSize: 14.0, color: Colors.black),
+                height: 360.0,
+                padding: EdgeInsets.only(left: 16.0, right: 16.0, top: 16.0),
+                decoration: BoxDecoration(
+                  color: Color(0xFFE5E5E5),
                 ),
-              ), 
-              )
+                child: CupertinoScrollbar(
+                  isAlwaysShown: true,
+                  controller: ScrollController(),
+                  child: SingleChildScrollView(
+                    child: Text(
+                      longText,
+                      style: TextStyle(fontSize: 14.0, color: Colors.black),
+                    ),
+                  ),
+                )),
+            Center(
+              child: ElevatedButton(
+                child: Text("TEST BUTTON", style: TextStyle(fontSize: 14.0)),
+                onPressed: () {},
+                style: ElevatedButton.styleFrom(
+                  minimumSize: Size(140.0, 50.0),
+                  primary: Color(0xFFDB00FF),
+                  onPrimary: Colors.white,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(30.0),
+                  ),
+                ),
+              ),
             ),
           ],
         ),
