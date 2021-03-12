@@ -43,6 +43,10 @@ class Screen1 extends StatelessWidget {
               child: Text(shortText, 
                 style: TextStyle(fontSize: 14.0, color: Colors.black)),
             ),
+            Container(
+              height: 360.0,
+              decoration: BoxDecoration(color: Color(0xFFE5E5E5)),
+            ),
           ],
         ),
       ),
