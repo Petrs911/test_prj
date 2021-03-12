@@ -11,18 +11,14 @@ class Screen1 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      height: 400.0,
-      decoration: BoxDecoration(color: Colors.black),
-      child: Center(
-        child: Container(
-          width: 100.0,
-          height: 100.0,
-          //margin: EdgeInsets.all(16.0),
-          decoration: BoxDecoration(
-            color: Colors.green,
-            borderRadius: BorderRadius.circular(12),
-          ),
+    return Center(
+      child: Container(
+        width: 100.0,
+        height: 100.0,
+        //margin: EdgeInsets.all(16.0),
+        decoration: BoxDecoration(
+          color: Colors.green,
+          borderRadius: BorderRadius.circular(12),
         ),
       ),
     );
