@@ -17,7 +17,7 @@ class Screen1 extends StatelessWidget {
         width: double.infinity,
         height: 581.0,
         decoration: BoxDecoration(
-          color: Colors.green,
+          color: Colors.white,
           borderRadius: BorderRadius.circular(12),
         ),
         child: Column(
