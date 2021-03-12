@@ -54,6 +54,9 @@ class Screen1 extends StatelessWidget {
                   ),
                 ],
               ),
+              child: Text(longText,
+                style: TextStyle(fontSize: 14.0, color: Colors.black) 
+              )
             ),
           ],
         ),
