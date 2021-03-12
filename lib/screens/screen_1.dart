@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 
 import 'button.dart';
+import 'text.dart';
 
 class Screen1 extends StatelessWidget {
   const Screen1({Key key}) : super(key: key);
@@ -14,7 +15,7 @@ class Screen1 extends StatelessWidget {
     return Center(
       child: Container(
         margin: EdgeInsets.all(16.0),
-        //width: double.infinity,
+        width: double.infinity,
         height: 581.0,
         decoration: BoxDecoration(
           color: Colors.white,
@@ -36,6 +37,10 @@ class Screen1 extends StatelessWidget {
                 ),
                 ButtonWidget(),
               ],
+              Container(
+                margin: EdgeInsets.all(16.0),
+                child: Text(shortText, fontSize: 14.0, color: Colors.clack),
+              ),
             ),
           ],
         ),
