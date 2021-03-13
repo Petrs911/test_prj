@@ -16,7 +16,7 @@ class Screen1 extends StatelessWidget {
       child: Container(
         margin: EdgeInsets.all(16.0),
         width: double.infinity,
-        height: 581.0,
+        height: 580.0,
         decoration: BoxDecoration(
           color: Colors.white,
           borderRadius: BorderRadius.circular(12),
@@ -40,7 +40,7 @@ class Screen1 extends StatelessWidget {
               ],
             ),
             Container(
-              margin: EdgeInsets.only(left:16.0, right: 16.0),
+              margin: EdgeInsets.only(left: 16.0, right: 16.0),
               child: Text(shortText, style: TextStyle(fontSize: 14.0, color: Colors.black)),
             ),
             Container(
