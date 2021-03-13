@@ -9,9 +9,10 @@ class Screen2 extends StatelessWidget {
 
   static const routeName = '/screen_2';
   @override
-  Widget build(BuildContext context) => Container();
+  Widget build(BuildContext context) => ListWidget();
 }
-/*
+
+class ListWidget extends StatelessWidget {
   final verticalItems = VerticalItemsProvider();
   verticalItems._reloadItems();
   var verticalList = verticalItems._items;
@@ -46,4 +47,4 @@ class TextWidget extends StatelessWidget {
       child: Text(text),
     );
   }
-}*/
+}
