@@ -10,6 +10,7 @@ class Screen2 extends StatelessWidget {
   static const routeName = '/screen_2';
   @override
   Widget build(BuildContext context) => Container();
+}
 /*
   final verticalItems = VerticalItemsProvider();
   verticalItems._reloadItems();
