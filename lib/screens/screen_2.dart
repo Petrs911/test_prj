@@ -10,11 +10,11 @@ class Screen2 extends StatelessWidget {
   static const routeName = '/screen_2';
 
   var verticalItems = VerticalItemsProvider();
-  verticalItems.reload();
+  verticalItems._reloadItems();
   verticalList = verticalItems._items;
 
   var horizontalItems = HorizontalItemsProvider();
-  horizontalItems.reload();
+  horizontalItems._reloadItems();
   horizontalList = horizontalItems._items;
 
   @override
