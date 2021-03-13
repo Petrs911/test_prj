@@ -7,8 +7,8 @@ import 'button.dart';
 class Screen2 extends StatelessWidget {
   const Screen2({Key key}) : super(key: key);
 
-  /*static const routeName = '/screen_2';
-
+  static const routeName = '/screen_2';
+/*
   final verticalItems = VerticalItemsProvider();
   verticalItems._reloadItems();
   var verticalList = verticalItems._items;
