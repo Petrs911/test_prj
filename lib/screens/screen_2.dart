@@ -11,11 +11,11 @@ class Screen2 extends StatelessWidget {
 
   var verticalItems = VerticalItemsProvider();
   verticalItems._reloadItems();
-  verticalList = verticalItems._items;
+  List<String> verticalList = verticalItems._items;
 
   var horizontalItems = HorizontalItemsProvider();
   horizontalItems._reloadItems();
-  horizontalList = horizontalItems._items;
+  List<String> horizontalList = horizontalItems._items;
 
   @override
   Widget build(BuildContext context) {
