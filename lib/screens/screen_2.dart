@@ -5,17 +5,17 @@ import '../providers/vertical_items.dart';
 import 'button.dart';
 
 class Screen2 extends StatelessWidget {
-  const Screen2({Key key}) : super(key: key);
+  Screen2({Key key}) : super(key: key);
 
   static const routeName = '/screen_2';
 
   final verticalItems = VerticalItemsProvider();
   verticalItems._reloadItems();
-  List<String> verticalList = verticalItems._items;
+  var verticalList = verticalItems._items;
 
   final horizontalItems = HorizontalItemsProvider();
   horizontalItems._reloadItems();
-  List<String> horizontalList = horizontalItems._items;
+  var horizontalList = horizontalItems._items;
 
   @override
   Widget build(BuildContext context) {
