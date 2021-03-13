@@ -1,7 +1,7 @@
 import 'package:flutter/widgets.dart';
 
-import 'providers/horizontal_items.dart';
-import 'providers/vertical_items.dart';
+import '../providers/horizontal_items.dart';
+import '../providers/vertical_items.dart';
 import 'button.dart';
 
 class Screen2 extends StatelessWidget {
