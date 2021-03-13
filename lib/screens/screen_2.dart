@@ -15,7 +15,7 @@ class Screen2 extends StatelessWidget {
 
   final horizontalItems = HorizontalItemsProvider();
   horizontalItems._reloadItems();
-  var horizontalList = horizontalItems._items;*/
+  var horizontalList = horizontalItems._items;
 
   @override
   Widget build(BuildContext context) {
@@ -25,10 +25,10 @@ class Screen2 extends StatelessWidget {
         return TextWidget(text: horizontalList[index]);
       }
     );
-  }
+  }*/
 }
 
-/*class TextWidget extends StatelessWidget {
+class TextWidget extends StatelessWidget {
   TextWidget({Key key, this.text}) : super(key: key);
 
   String text;
@@ -43,4 +43,4 @@ class Screen2 extends StatelessWidget {
       child: Text(text),
     );
   }
-}*/
+}
