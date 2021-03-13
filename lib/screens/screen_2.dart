@@ -20,7 +20,7 @@ class ListWidget extends StatelessWidget {
     var horizontalList = horizontalItems.itemsCount;
     var nums = horizontalItems.itemAt(horizontalList - 1);
     
-    return TextWidget(text: horizontalList);
+    return TextWidget(text: nums);
   }
 }
 
