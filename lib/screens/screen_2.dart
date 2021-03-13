@@ -5,9 +5,9 @@ import '../providers/vertical_items.dart';
 import 'button.dart';
 
 class Screen2 extends StatelessWidget {
-  Screen2({Key key}) : super(key: key);
+  const Screen2({Key key}) : super(key: key);
 
-  static const routeName = '/screen_2';
+  /*static const routeName = '/screen_2';
 
   final verticalItems = VerticalItemsProvider();
   verticalItems._reloadItems();
@@ -15,7 +15,7 @@ class Screen2 extends StatelessWidget {
 
   final horizontalItems = HorizontalItemsProvider();
   horizontalItems._reloadItems();
-  var horizontalList = horizontalItems._items;
+  var horizontalList = horizontalItems._items;*/
 
   @override
   Widget build(BuildContext context) {
@@ -28,7 +28,7 @@ class Screen2 extends StatelessWidget {
   }
 }
 
-class TextWidget extends StatelessWidget {
+/*class TextWidget extends StatelessWidget {
   TextWidget({Key key, this.text}) : super(key: key);
 
   String text;
@@ -43,4 +43,4 @@ class TextWidget extends StatelessWidget {
       child: Text(text),
     );
   }
-}
+}*/
