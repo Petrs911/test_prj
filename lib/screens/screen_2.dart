@@ -13,16 +13,16 @@ class Screen2 extends StatelessWidget {
 }
 
 class ListWidget extends StatelessWidget {
-  final verticalItems = VerticalItemsProvider();
-  verticalItems._reloadItems();
-  var verticalList = verticalItems._items;
-
-  final horizontalItems = HorizontalItemsProvider();
-  horizontalItems._reloadItems();
-  var horizontalList = horizontalItems._items;
-
   @override
   Widget build(BuildContext context) {
+    var verticalItems = VerticalItemsProvider();
+    verticalItems._reloadItems();
+    var verticalList = verticalItems._items;
+
+    var horizontalItems = HorizontalItemsProvider();
+    horizontalItems._reloadItems();
+    var horizontalList = horizontalItems._items;
+    
     return ListView.builder(
       itemCount: horizontalList.length, 
       itemBuilder: (context, index) {
