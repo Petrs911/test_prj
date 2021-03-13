@@ -17,7 +17,8 @@ class ListWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var horizontalItems = HorizontalItemsProvider();
-    var horizontalList = horizontalItems.itemsCount.toString();
+    var horizontalList = horizontalItems.itemsCount;
+    var nums = horizontalItems.itemAt(horizontalList - 1);
     
     return TextWidget(text: horizontalList);
   }
