@@ -6,10 +6,11 @@ import 'button.dart';
 import 'text.dart';
 
 class Screen1 extends StatelessWidget {
+  ScrollController _controller;
   const Screen1({Key key}) : super(key: key);
 
   static const routeName = '/screen_1';
-  ScrollController _controller;
+  
 
   @override
   Widget build(BuildContext context) {
