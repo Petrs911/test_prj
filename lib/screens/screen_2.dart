@@ -19,7 +19,7 @@ class _ItemsList extends StatelessWidget {
     var item = VerticalItemsProvider();
     return Scaffold(
       body: ListView.builder(
-        itemCount: item.itemsCount,
+        itemCount: item.itemsCount - 1,
         itemBuilder: (context, index) {
           return ListTile(
             title: Text(
