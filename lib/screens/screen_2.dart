@@ -22,22 +22,28 @@ class _ItemsList extends StatelessWidget {
       body: ListView.builder(
         scrollDirection: Axis.horizontal,
         itemCount: item.itemsCount - 1,
-        itemBuilder: (context, index) => TextWidget(text: item.itemAt(index)),
+        itemBuilder: (context, index) => TextWidget(
+          text: item.itemAt(index),
+          height: 150.0,
+          weight: 380.0,
+        ),
       ),
     );
   }
 }
 
 class TextWidget extends StatelessWidget {
-  const TextWidget({Key key, this.text}) : super(key: key);
+  const TextWidget({Key key, this.text, this.height, this.weight}) : super(key: key);
 
   final String text;
+  final double height;
+  final double weight;
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 150.0,
-      width: 380.0,
+      height: height,
+      width: weight,
       alignment: Alignment.center,
       margin: EdgeInsets.only(left: 16.0, right: 16.0, bottom: 8.0, top: 8.0),
       decoration: BoxDecoration(
