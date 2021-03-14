@@ -12,6 +12,8 @@ class Screen1 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final ScrollController _controller = ScrollController();
+
     return Center(
       child: Container(
         margin: EdgeInsets.all(16.0),
@@ -51,9 +53,9 @@ class Screen1 extends StatelessWidget {
                 ),
                 child: CupertinoScrollbar(
                   isAlwaysShown: true,
-                  controller: ScrollController(),
+                  controller: _controller,
                   child: SingleChildScrollView(
-                    controller: ScrollController(),
+                    controller: _controller,
                     child: Text(
                       longText,
                       style: TextStyle(fontSize: 14.0, color: Colors.black),
