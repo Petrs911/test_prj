@@ -9,7 +9,8 @@ class Screen1 extends StatelessWidget {
   const Screen1({Key key}) : super(key: key);
 
   static const routeName = '/screen_1';
-  final ScrollController _controller;
+  ScrollController _controller;
+
   @override
   Widget build(BuildContext context) {
     _controller = ScrollController();
