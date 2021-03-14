@@ -41,7 +41,7 @@ class TextWidget extends StatelessWidget {
       //padding: EdgeInsets.all(20.0),
       margin: EdgeInsets.only(left: 16.0, right: 16.0, bottom: 8.0, top: 8.0),
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.all(10.0),
+        borderRadius: BorderRadius.all(Radius.circular(10.0)),
         border: Border.all(color: Colors.black, width: 1.0)
       ),
       child: Text(
