@@ -20,6 +20,7 @@ class _ItemsList extends StatelessWidget {
     var item = context.watch<VerticalItemsProvider>();
     return Scaffold(
       body: ListView.builder(
+        scrollDerection: Axis.horizontal,
         itemCount: item.itemsCount - 1,
         itemBuilder: (context, index) => TextWidget(text: item.itemAt(index)),
       ),
@@ -38,12 +39,10 @@ class TextWidget extends StatelessWidget {
       height: 150.0,
       width: double.infinity,
       alignment: Alignment.center,
-      //padding: EdgeInsets.all(20.0),
       margin: EdgeInsets.only(left: 16.0, right: 16.0, bottom: 8.0, top: 8.0),
       decoration: BoxDecoration(
         color: Colors.white,
         borderRadius: BorderRadius.all(Radius.circular(15.0)),
-        //border: Border.all(color: Colors.black, width: 1.0),
         boxShadow: [
           BoxShadow(
             color: Colors.grey.withOpacity(0.5),
