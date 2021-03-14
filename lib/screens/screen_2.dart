@@ -36,7 +36,7 @@ class TextWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       height: 150.0,
-      width: 382.0,
+      width: double.infinity,
       alignment: Alignment.center,
       padding: EdgeInsets.all(20.0),
       margin: EdgeInsets.all(5.0),
