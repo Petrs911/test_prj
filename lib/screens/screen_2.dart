@@ -20,7 +20,7 @@ class _ItemsList extends StatelessWidget {
     var item = context.watch<VerticalItemsProvider>();
     return Scaffold(
       body: ListView.builder(
-        //scrollDirection: Axis.horizontal,
+        scrollDirection: Axis.horizontal,
         itemCount: item.itemsCount - 1,
         itemBuilder: (context, index) => TextWidget(text: item.itemAt(index)),
       ),
