@@ -35,6 +35,7 @@ class TextWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      height: 150.0,
       alignment: Alignment.center,
       padding: EdgeInsets.all(20.0),
       margin: EdgeInsets.all(5.0),
