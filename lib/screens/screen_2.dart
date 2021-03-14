@@ -27,7 +27,6 @@ class _ItemsList extends StatelessWidget {
             );
           ),          
         }
-      )
     );
   }
 }
