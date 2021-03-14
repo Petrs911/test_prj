@@ -6,15 +6,13 @@ import 'button.dart';
 import 'text.dart';
 
 class Screen1 extends StatelessWidget {
-  ScrollController _controller;
   const Screen1({Key key}) : super(key: key);
 
   static const routeName = '/screen_1';
   
-
   @override
   Widget build(BuildContext context) {
-    _controller = ScrollController();
+    ScrollController _controller = ScrollController();
 
     return Center(
       child: Container(
