@@ -1,5 +1,6 @@
 import 'package:flutter/widgets.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 import '../providers/horizontal_items.dart';
 import '../providers/vertical_items.dart';
@@ -16,7 +17,7 @@ class Screen2 extends StatelessWidget {
 class _ItemsList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    var item = VerticalItemsProvider();
+    var item = context.watch<VerticalItemsProvider>();
     return Scaffold(
       body: ListView.builder(
         itemCount: item.itemsCount - 1,
