@@ -21,12 +21,7 @@ class _ItemsList extends StatelessWidget {
     return Scaffold(
       body: ListView.builder(
         itemCount: item.itemsCount - 1,
-        itemBuilder: (context, index) {
-          return TextWidget(
-              text: item.itemAt(index),
-            );
-          ),          
-        }
+        itemBuilder: (context, index) => TextWidget(text: item.itemAt(index)),
     );
   }
 }
