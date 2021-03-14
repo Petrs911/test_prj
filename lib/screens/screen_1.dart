@@ -10,6 +10,8 @@ class Screen1 extends StatelessWidget {
 
   static const routeName = '/screen_1';
 
+  final ScrollController _controller = ScrollController();
+
   @override
   Widget build(BuildContext context) {
     return Center(
@@ -51,8 +53,9 @@ class Screen1 extends StatelessWidget {
                 ),
                 child: CupertinoScrollbar(
                   isAlwaysShown: true,
-                  controller: ScrollController(),
+                  controller: _controller,
                   child: SingleChildScrollView(
+                    controller: _controller,
                     child: Text(
                       longText,
                       style: TextStyle(fontSize: 14.0, color: Colors.black),
