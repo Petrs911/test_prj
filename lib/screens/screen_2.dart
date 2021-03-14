@@ -24,8 +24,8 @@ class _ItemsList extends StatelessWidget {
         itemBuilder: (context, index) {
           return TextWidget(
               text: item.itemAt(index),
-            ),
-          );          
+            );
+          ),          
         }
       )
     );
