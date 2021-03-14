@@ -38,7 +38,7 @@ class TextWidget extends StatelessWidget {
       height: 150.0,
       width: double.infinity,
       alignment: Alignment.center,
-      padding: EdgeInsets.all(20.0),
+      //padding: EdgeInsets.all(20.0),
       margin: EdgeInsets.all(16.0),
       decoration: BoxDecoration(border: Border.all(color: Colors.black, width: 1.0)),
       child: Text(
