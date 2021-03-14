@@ -22,13 +22,32 @@ class _ItemsList extends StatelessWidget {
       body: ListView.builder(
         itemCount: item.itemsCount - 1,
         itemBuilder: (context, index) {
-          return ListTile(
-            title: Text(
-              item.itemAt(index),
+          return TextWidget(
+              text: item.itemAt(index),
             ),
           );          
         }
       )
+    );
+  }
+}
+
+class TextWidget extends StatelessWidget {
+  const TextWidget({Key key, this.text}) : super(key: key);
+
+  final String text;
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      alignment: Alignment.center,
+      padding: EdgeInsets.all(20.0),
+      margin: EdgeInsets.all(5.0),
+      decoration: BoxDecoration(border: Border.all(color: Colors.black, width: 1.0)),
+      child: Text(
+        text,
+        style: TextStyle(fontSize: 20.0),
+      ),
     );
   }
 }
