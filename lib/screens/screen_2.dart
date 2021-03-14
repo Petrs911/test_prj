@@ -42,7 +42,7 @@ class TextWidget extends StatelessWidget {
       margin: EdgeInsets.only(left: 16.0, right: 16.0, bottom: 8.0, top: 8.0),
       decoration: BoxDecoration(
         borderRadius: BorderRadius.all(Radius.circular(15.0)),
-        border: Border.all(color: Colors.black, width: 1.0)
+        border: Border.all(color: Colors.black, width: 1.0),
         boxShadow: [
           BoxShadow(
             color: Colors.grey.withOpacity(0.5),
