@@ -10,33 +10,25 @@ class Screen2 extends StatelessWidget {
 
   static const routeName = '/screen_2';
   @override
-  Widget build(BuildContext context) => ListWidget();
+  Widget build(BuildContext context) => _ItemList();
 }
 
-class ListWidget extends StatelessWidget {
+class _ItemsList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    var horizontalItems = HorizontalItemsProvider();
-    var horizontalList = horizontalItems.itemsCount;
-    var nums = horizontalItems.itemAt(horizontalList - 1);
-    
-    return TextWidget(text: nums);
-  }
-}
-
-class TextWidget extends StatelessWidget {
-  TextWidget({Key key, this.text}) : super(key: key);
-
-  String text;
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      alignment: Alignment.center,
-      padding: EdgeInsets.all(20.0),
-      margin: EdgeInsets.all(5.0),
-      decoration: BoxDecoration(border: Border.all(color: Colors.black, width: 1.0)),
-      child: Text(text),
+    var item = VerticalItemsProvider();
+    return Scaffold(
+      body: ListView.builder(
+        itemCount: item.itemsCount,
+        itemBuilder: (context, index) {
+          return ListTile(
+            title: Text(
+              item.itemAt(index),
+            ),
+          );          
+        }
+      )
     );
   }
 }
+
