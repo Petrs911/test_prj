@@ -22,6 +22,7 @@ class _ItemsList extends StatelessWidget {
       body: ListView.builder(
         itemCount: item.itemsCount - 1,
         itemBuilder: (context, index) => TextWidget(text: item.itemAt(index)),
+      ),
     );
   }
 }
