@@ -35,6 +35,7 @@ class Screen2 extends StatelessWidget {
           ),
           Expanded(
             flex: 2,
+            child: Container(decoration: BoxDecoration(color: Colors.red)),
             //child: VerticalListView(),
           ),
         ],
