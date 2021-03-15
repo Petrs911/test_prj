@@ -6,8 +6,8 @@ class TextWidget extends StatelessWidget {
     this.text, 
     this.height, 
     this.weight,
-    this.marginLeft = 16.0,
-    this.marginRight = 16.0,
+    this.marginLeft = 8.0,
+    this.marginRight = 8.0,
     }) : super(key: key);
 
   final String text;
