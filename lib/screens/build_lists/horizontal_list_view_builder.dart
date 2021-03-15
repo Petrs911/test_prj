@@ -7,12 +7,14 @@ import 'text_widget.dart';
 class HorizontalListView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    var item = context.watch<HorizontalItemsProvider>();
+    //var item = context.watch<HorizontalItemsProvider>();
     return ListView.builder(
       scrollDirection: Axis.horizontal,
-      itemCount: item.itemsCount - 1,
+      //itemCount: item.itemsCount - 1,
+      itemCount: 10,
       itemBuilder: (context, index) => TextWidget(
-        text: item.itemAt(index),
+        //text: item.itemAt(index),
+        text: 'Item $index',
         height: 150.0,
         weight: 380.0,
       ),
