@@ -6,19 +6,22 @@ class TextWidget extends StatelessWidget {
     this.text, 
     this.height, 
     this.weight
+    this.marginLeft = 16.0,
+    this.marginRight = 16.0,
     }) : super(key: key);
 
   final String text;
   final double height;
   final double weight;
-
+  final double marginLeft;
+  final double marginRight;
   @override
   Widget build(BuildContext context) {
     return Container(
       height: height,
       width: weight,
       alignment: Alignment.center,
-      margin: EdgeInsets.only(left: 16.0, right: 16.0, bottom: 8.0, top: 8.0),
+      margin: EdgeInsets.only(left: marginLeft, right: marginRight, bottom: 8.0, top: 8.0),
       decoration: BoxDecoration(
         color: Colors.white,
         borderRadius: BorderRadius.all(Radius.circular(15.0)),

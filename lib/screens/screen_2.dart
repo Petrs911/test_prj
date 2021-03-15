@@ -17,7 +17,7 @@ class Screen2 extends StatelessWidget {
     return Scaffold(
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
-        children: <Widget> [
+        children: <Widget>[
           Align(
             alignment: Alignment.topRight,
             child: ButtonWidget(),
@@ -42,7 +42,3 @@ class Screen2 extends StatelessWidget {
     );
   }
 }
-
-
-
-

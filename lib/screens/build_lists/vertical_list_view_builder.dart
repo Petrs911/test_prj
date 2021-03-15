@@ -9,7 +9,6 @@ class VerticalListView extends StatelessWidget {
   Widget build(BuildContext context) {
     var item = context.watch<VerticalItemsProvider>();
     return ListView.builder(
-      scrollDirection: Axis.horizontal,
       itemCount: item.itemsCount - 1,
       itemBuilder: (context, index) => TextWidget(
         text: item.itemAt(index),
