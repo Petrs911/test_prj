@@ -16,6 +16,7 @@ class Screen2 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget> [
           Align(
             alignment: Alignment.topRight,
