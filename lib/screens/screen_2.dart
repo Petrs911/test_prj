@@ -35,7 +35,7 @@ class Screen2 extends StatelessWidget {
           ),
           Expanded(
             flex: 2,
-            child: VerticalListView(),
+            //child: VerticalListView(),
           ),
         ],
       ),
