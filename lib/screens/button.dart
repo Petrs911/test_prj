@@ -8,7 +8,7 @@ class ButtonWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return TextButton(
       onPressed: () => Navigator.pop(context),
-      child: Icon(CupertinoIcons.clear, color: Colors.green, size: 50.0),
+      child: Icon(CupertinoIcons.clear, color: Colors.black, size: 50.0),
     );
   }
 }

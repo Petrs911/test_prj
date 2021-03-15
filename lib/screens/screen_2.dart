@@ -4,6 +4,8 @@ import 'package:provider/provider.dart';
 
 import '../providers/horizontal_items.dart';
 import '../providers/vertical_items.dart';
+import 'build_lists/horizontal_list_view_builder.dart';
+import 'build_lists/vertical_list_view_builder.dart';
 import 'button.dart';
 
 class Screen2 extends StatelessWidget {
@@ -11,58 +13,35 @@ class Screen2 extends StatelessWidget {
 
   static const routeName = '/screen_2';
   @override
-  Widget build(BuildContext context) => _ItemsList();
-}
-
-class _ItemsList extends StatelessWidget {
-  @override
   Widget build(BuildContext context) {
-    var item = context.watch<VerticalItemsProvider>();
     return Scaffold(
-      body: ListView.builder(
-        //scrollDirection: Axis.horizontal,
-        itemCount: item.itemsCount - 1,
-        itemBuilder: (context, index) => TextWidget(
-          text: item.itemAt(index),
-          height: 150.0,
-          weight: 380.0,
-        ),
-      ),
-    );
-  }
-}
-
-class TextWidget extends StatelessWidget {
-  const TextWidget({Key key, this.text, this.height, this.weight}) : super(key: key);
-
-  final String text;
-  final double height;
-  final double weight;
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      height: height,
-      width: weight,
-      alignment: Alignment.center,
-      margin: EdgeInsets.only(left: 16.0, right: 16.0, bottom: 8.0, top: 8.0),
-      decoration: BoxDecoration(
-        color: Colors.white,
-        borderRadius: BorderRadius.all(Radius.circular(15.0)),
-        boxShadow: [
-          BoxShadow(
-            color: Colors.grey.withOpacity(0.5),
-            spreadRadius: 5,
-            blurRadius: 7,
-            offset: Offset(0, 3),
+      body: Column(
+        children: <Widget> [
+          Align(
+            alignment: Alignment.topRight,
+            child: ButtonWidget(),
+          ),
+          Padding(
+            padding: EdgeInsets.all(5.0),
+            child: Text('Section 1'),
+          ),
+          Expanded(
+            child: HorizontalListView(),
+          ),
+          Padding(
+            padding: EdgeInsets.all(5.0),
+            child: Text('Section 2'),
+          ),
+          Expanded(
+            flex: 2,
+            child: VerticalListView(),
           ),
         ],
       ),
-      child: Text(
-        text,
-        style: TextStyle(fontSize: 20.0),
-      ),
     );
   }
 }
+
+
+
 
