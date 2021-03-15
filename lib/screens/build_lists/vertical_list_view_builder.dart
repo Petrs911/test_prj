@@ -7,16 +7,25 @@ import 'text_widget.dart';
 class VerticalListView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    //var item = context.watch<VerticalItemsProvider>();
-    return ListView.builder(
-      //itemCount: item.itemsCount - 1,
-      itemCount: 10,
-      itemBuilder: (context, index) => TextWidget(
-        //text: item.itemAt(index),
-        text: 'Item1 $index',
-        height: 150.0,
-        weight: 380.0,
-      ),
+    var item = context.watch<VerticalItemsProvider>();
+    return Column(
+      chilren: <Widget>[
+        Padding(
+          padding: EdgeInsets.only(left: 8.0),
+          child: Text(
+            'Section 2 (${item.itemsCount})',
+            style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+          ),
+        ),
+        ListView.builder(
+          itemCount: item.itemsCount - 1,
+          itemBuilder: (context, index) => TextWidget(
+            text: item.itemAt(index),
+            height: 150.0,
+            weight: 380.0,
+          ),
+        ),
+      ],
     );
   }
 }

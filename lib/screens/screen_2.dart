@@ -22,17 +22,11 @@ class Screen2 extends StatelessWidget {
             alignment: Alignment.topRight,
             child: ButtonWidget(),
           ),
-          Padding(
-            padding: EdgeInsets.all(5.0),
-            child: Text('Section 1'),
-          ),
           Expanded(
+              child: Container(
+            margin: EdgeInsets.only(left: 20.0),
             child: HorizontalListView(),
-          ),
-          Padding(
-            padding: EdgeInsets.all(5.0),
-            child: Text('Section 2'),
-          ),
+          )),
           Expanded(
             flex: 2,
             //child: Container(decoration: BoxDecoration(color: Colors.red)),
