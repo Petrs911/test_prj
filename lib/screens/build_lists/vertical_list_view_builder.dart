@@ -17,12 +17,14 @@ class VerticalListView extends StatelessWidget {
             style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
           ),
         ),
-        ListView.builder(
-          itemCount: item.itemsCount - 1,
-          itemBuilder: (context, index) => TextWidget(
-            text: item.itemAt(index),
-            height: 150.0,
-            weight: 380.0,
+        Expanded(
+          child: ListView.builder(
+            itemCount: item.itemsCount - 1,
+            itemBuilder: (context, index) => TextWidget(
+              text: item.itemAt(index),
+              height: 150.0,
+              weight: 380.0,
+            ),
           ),
         ),
       ],

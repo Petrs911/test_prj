@@ -16,13 +16,15 @@ class HorizontalListView extends StatelessWidget {
           style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
         ),
       ),
-      ListView.builder(
-        scrollDirection: Axis.horizontal,
-        itemCount: item.itemsCount - 1,
-        itemBuilder: (context, index) => TextWidget(
-          text: item.itemAt(index),
-          height: 150.0,
-          weight: 330.0,
+      Expanded(
+        child: ListView.builder(
+          scrollDirection: Axis.horizontal,
+          itemCount: item.itemsCount - 1,
+          itemBuilder: (context, index) => TextWidget(
+            text: item.itemAt(index),
+            height: 150.0,
+            weight: 330.0,
+          ),
         ),
       ),
     ]);
