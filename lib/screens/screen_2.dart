@@ -23,10 +23,8 @@ class Screen2 extends StatelessWidget {
             child: ButtonWidget(),
           ),
           Expanded(
-              child: Container(
-            margin: EdgeInsets.only(left: 20.0),
             child: HorizontalListView(),
-          )),
+          ),
           Expanded(
             flex: 2,
             child: VerticalListView(),
