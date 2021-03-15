@@ -9,6 +9,7 @@ class VerticalListView extends StatelessWidget {
   Widget build(BuildContext context) {
     var item = context.watch<VerticalItemsProvider>();
     return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
         Padding(
           padding: EdgeInsets.only(left: 8.0),
