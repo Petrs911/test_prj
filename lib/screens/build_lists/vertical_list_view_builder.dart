@@ -9,7 +9,7 @@ class VerticalListView extends StatelessWidget {
   Widget build(BuildContext context) {
     var item = context.watch<VerticalItemsProvider>();
     return Column(
-      chilren: <Widget>[
+      children: <Widget>[
         Padding(
           padding: EdgeInsets.only(left: 8.0),
           child: Text(
