@@ -1,7 +1,12 @@
 import 'package:flutter/material.dart';
 
 class TextWidget extends StatelessWidget {
-  const TextWidget({Key key, this.text, this.height, this.weight}) : super(key: key);
+  const TextWidget({
+    Key key, 
+    this.text, 
+    this.height, 
+    this.weight
+    }) : super(key: key);
 
   final String text;
   final double height;

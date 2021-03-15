@@ -2,8 +2,6 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import '../providers/horizontal_items.dart';
-import '../providers/vertical_items.dart';
 import 'build_lists/horizontal_list_view_builder.dart';
 import 'build_lists/vertical_list_view_builder.dart';
 import 'button.dart';
